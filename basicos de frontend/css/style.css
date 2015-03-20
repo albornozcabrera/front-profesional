@@ -1,0 +1,49 @@
+body{
+	background: #efc792;
+	font-family: arial;
+	font-size: 16px;
+}
+header{
+	border:1px solid;
+	background: #9Bd1e3;
+	color: white;
+	overflow: hidden;
+	padding: 1em;
+}
+header h1{
+	font-size: 1.6em;
+	font-weight: normal;
+	margin: 0 0 0 0.5em;
+	float: left;
+}
+header #logo img{
+	width: 125px;
+	border-radius: 80px;
+	float: left;
+}
+nav{
+	background: #eaf0be;
+	text-align: center;
+	padding: 1em;
+}
+li{
+	display: inline;
+	margin: 0 1em;
+}
+section{
+	font-size: 0;
+}
+footer{
+	background: red;
+	border: 1px solid;
+	text-align: center;
+	padding: 1rem;
+}
+.item{
+	width: 35%;
+	margin: 0.5%;
+	background: #2dbbbb;
+	display: inline-block;
+	overflow: hidden;
+	font-size: 1rem;
+}
